@@ -35,7 +35,7 @@ def cargar_datos():
 
 @st.cache_resource
 def entrenar_modelo(df):
-    X = df.iloc[:, 0:4]  # 4 características
+    X = df.iloc[:, 0:4] 
     y = df["species"]
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -99,7 +99,7 @@ def main():
 
     st.title("🌸 Iris Species Classification")
     st.markdown("""
-    Proyecto final de **Data Mining**  
+    Proyecto final de **Data Mining** By Samuel Esteban Caceres Izquierdo.  
     Modelo de clasificación para predecir la especie de una flor Iris a partir de 4 medidas:
     - Sepal length  
     - Sepal width  
