@@ -76,5 +76,5 @@ Se utiliza el dataset **Iris** incluido en `scikit-learn`, que contiene:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/IRIS-SPECIES-CLASSIFICATION.git
+git clone https://github.com/scacere5/IRIS-SPECIES-CLASSIFICATION.git
 cd IRIS-SPECIES-CLASSIFICATION
